@@ -79,7 +79,7 @@ An intelligent web application that uses Convolutional Neural Networks (CNN) to 
 
 **1. Clone the repository**
 ```bash
-git clone https://github.com/YOUR_USERNAME/plantcare-ai.git
+git clone https://github.com/learner0018/Plantcare-ai.git
 cd plantcare-ai
 ```
 
@@ -101,14 +101,7 @@ pip install -r requirements.txt
 
 **4. Download the trained model**
 
-The trained model file is too large for GitHub. Download it here:
-
-📥 **[Download plant_model.h5 (45MB)](https://drive.google.com/YOUR_LINK_HERE)**
-
-Place it in the `model/` folder:
-```
-model/plant_model.h5
-```
+The trained model file is too large for GitHub.
 
 **5. Set up environment variables**
 
