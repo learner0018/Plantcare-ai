@@ -1,0 +1,162 @@
+# ============================================
+# Python
+# ============================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ============================================
+# Virtual Environment (IMPORTANT!)
+# ============================================
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# ============================================
+# Environment Variables (CRITICAL!)
+# ============================================
+.env
+.env.local
+.env.*.local
+*.env
+
+# ============================================
+# AI Model Files (Too Large for GitHub)
+# ============================================
+*.h5
+*.hdf5
+*.pb
+*.pth
+*.ckpt
+model/plant_model.h5
+model/*.h5
+
+# ============================================
+# Dataset (Too Large)
+# ============================================
+dataset/
+dataset_organized/
+dataset_backup/
+*.csv
+data/
+
+# ============================================
+# Uploaded Images
+# ============================================
+uploads/
+static/uploads/
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+!static/icon.png
+!screenshots/*.png
+
+# ============================================
+# Training Outputs
+# ============================================
+logs/
+checkpoints/
+*.log
+
+# ============================================
+# Operating System Files
+# ============================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ============================================
+# IDE / Editor Files
+# ============================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+
+# ============================================
+# Jupyter Notebooks
+# ============================================
+.ipynb_checkpoints
+*.ipynb
+
+# ============================================
+# Testing
+# ============================================
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# ============================================
+# Temporary Files
+# ============================================
+*.tmp
+*.bak
+*.cache
+temp/
+tmp/
+```
+
+**Save this file as `.gitignore`** in your project root folder.
+
+---
+
+### **Step 3: Create LICENSE File**
+
+**Create a new file called `LICENSE`** (no extension!)
+
+**Location:** `C:\Users\adity\Documents\Projects\plant-disease-AI\LICENSE`
+
+**Paste this MIT License:**
+```
+MIT License
+
+Copyright (c) 2025 Aditya
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
